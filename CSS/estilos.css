@@ -1,0 +1,89 @@
+nav, .contenedor, footer, article, header, .principal, aside{
+  max-width: 93%;
+  margin: auto;
+  text-align: center;
+  font-family: "Franklin Gothic Book";
+}
+html{
+  background-color: white;
+}
+header{
+  background-color: white;
+  text-align: center;
+  padding: 0.9em 1em;
+  color: #005883;
+}
+footer{
+  background-color: white;
+  color: #005883;
+}
+.contenedor{
+  background-color: #F0B429;
+  border-radius: 15px;
+  padding: 0.9em 1em;
+  color: #005883;
+}
+article{
+  background-color: #005883;
+  text-align: left;
+  padding: 0.9em 1em;
+}
+.principal{
+  background-color: #005883;
+  display:inline-block;
+  width: 65%;
+  border-radius: 15px;
+  padding: 0.9em 1em;
+  color: white;
+}
+aside{
+  background-color: #F47920;
+  display:inline-block;
+  width: 28%;
+  border-radius: 15px;
+  text-align: center;
+  padding: 0.9em 1em;
+}
+nav{
+  background-color: #F0B429;
+  text-align: center;
+  border-radius: 15px;
+  width: 530px;
+  font-weight: bold;
+}
+/* Menú */
+.menu li{
+  display: inline-block;
+}
+li a, btnDesplegable{
+  color: #005883;
+  display: inline-block;
+  padding: 0.9em 1em;
+  text-align: center;
+  text-decoration: none;
+}
+.contenidoDesplegable{
+  display: none;
+  position: absolute;
+  background-color: cornsilk;
+  min-width: 8em;
+  border-radius: 15px;
+}
+.contenidoDesplegable a{
+  padding: 0.9em 1em;
+  display: block;
+  text-align: left;
+  border-radius: 15px;
+}
+.contenidoDesplegable a:hover{
+  background-color: #F47920;
+  border-radius: 15px;
+}
+.desplegable:hover .contenidoDesplegable{
+  display: block;
+  border-radius: 15px;
+}
+li a:hover{
+  background-color: #F47920;
+  border-radius: 15px;
+}
