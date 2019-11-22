@@ -37,6 +37,15 @@ article{
   color: white;
   vertical-align: top;
 }
+.principal2{
+  background-color: #005883;
+  display:inline-block;
+  width: 65%;
+  border-radius: 15px;
+  padding: 3em 1em;
+  color: white;
+  vertical-align: top;
+}
 aside{
   background-color: #F47920;
   display:inline-block;
